@@ -13,16 +13,19 @@ namespace Dz_List
             List<int> numbers = new List<int>();
             Random random = new Random();
             int max=0;
-            int premax = 0;
+            int preMax = 0;
             int sum = 0;
+
             for(int i = 1; i < 11; i++)
             {
                 numbers.Add(random.Next(20));
             }
+
             for (int i = 0; i < numbers.Count; i++)
             {
                 Console.WriteLine(numbers[i]);
             }
+
             for (int i = 0; i < numbers.Count; i++)
             {
                 if (numbers[i] > max)
@@ -30,13 +33,15 @@ namespace Dz_List
                     max = numbers[i];
                 }
             }
+
             for(int i = 0; i < numbers.Count; i++)
             {
-                if (numbers[i] > premax && numbers[i] < max)
+                if (numbers[i] > preMax && numbers[i] < max)
                 {
-                    premax = numbers[i];
+                    preMax = numbers[i];
                 }
             }
+
             for(int i = 0; i < numbers.Count; i++)
             {
                 if (i % 2 == 0)
@@ -44,6 +49,7 @@ namespace Dz_List
                     sum += numbers[i];
                 }
             }
+
             Console.WriteLine("Предмаксимальный элемент = {0}", premax);
             Console.WriteLine("Сумма = {0}", sum);
             Console.ReadLine();
