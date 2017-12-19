@@ -1,0 +1,6 @@
+c:\users\сикировт\documents\visual studio 2017\Projects\Dz_List\Dz_List\bin\Debug\Dz_List.exe.config
+c:\users\сикировт\documents\visual studio 2017\Projects\Dz_List\Dz_List\bin\Debug\Dz_List.exe
+c:\users\сикировт\documents\visual studio 2017\Projects\Dz_List\Dz_List\bin\Debug\Dz_List.pdb
+c:\users\сикировт\documents\visual studio 2017\Projects\Dz_List\Dz_List\obj\Debug\Dz_List.csprojResolveAssemblyReference.cache
+c:\users\сикировт\documents\visual studio 2017\Projects\Dz_List\Dz_List\obj\Debug\Dz_List.exe
+c:\users\сикировт\documents\visual studio 2017\Projects\Dz_List\Dz_List\obj\Debug\Dz_List.pdb
